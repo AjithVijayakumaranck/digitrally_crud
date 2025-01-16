@@ -1,0 +1,35 @@
+.table {
+    width: 100%;
+    @apply text-black;
+    thead,
+    tbody {
+        tr {
+          @apply border-b-[1px] border-teal-800/30;
+          text-align: center;
+        th {
+          @apply  font-normal border-b-[1px] border-teal-800 bg-teal-800 text-white;
+          padding: 10px 16px;
+          text-align: center;
+        }
+        td {
+          padding: 15px;
+        }
+        th,
+        td {
+          font-size: 13px;
+        }
+      }
+    }
+  
+    &.bordered {
+      thead,
+      tbody {
+        tr {
+          td {
+            border-bottom: 1px solid #edf2f6;
+          }
+        }
+      }
+    }
+  }
+  
