@@ -75,7 +75,7 @@ const CustomerCreateEdit = ({ closeModal, data, deleteCurrent }) => {
                     <h1 className="text-teal-900 font-bold">{data ? "UPDATE CUSTOMER" : "CREATE CUSTOMER"}</h1>
                     <button type="button" className="absolute right-[30px]" onClick={closeModal}>x</button>
                 </div>
-                <div className="py-4 grid grid-cols-2 gap-4">
+                <div className="formContainer">
                     <div className="w-full">
                         <label htmlFor="name" className="block text-[14px] mb-2 font-medium">Name</label>
                         <input

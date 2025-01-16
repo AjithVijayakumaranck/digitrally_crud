@@ -53,8 +53,10 @@ const Customer = () => {
   const openModal = ()=>  setIsModalOpen(true)
   return (
     <Fragment>
-    <div className='custom-container p-4'>
-        <div className='flex justify-end mb-3 '>
+    <div className='custom-container p-4 pt-24'>
+     
+        <div className='flex justify-between mb-3 '>
+        <h1 className='font-bold text-4xl'><span className='text-teal-800'>Customer</span> Data</h1>
         <button type='button' className='bg-teal-800 px-4 py-3 rounded-full text-white' onClick={openModal}>Add Customer</button>
         </div>
       <div className='border rounded-lg overflow-hidden'>
